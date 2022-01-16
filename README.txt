@@ -13,9 +13,8 @@ Changes to base code:
 Design Strategies:
 
 -Some general comments about the choices I made when designing
-the solution to this assigment. I used many of the principles that
-were introduced for tutorial 2. I split up my code into 3 main
-sections, state, functions & events, and render. 
+my solution. I split up my code into 3 main sections, state, functions
+& events, and render. 
     Any variables that hold state are put into the state section, 
 such as a variable for tax, the subtotal, an array that holds all 
 of the ordered meals, etc. 
@@ -32,8 +31,7 @@ restaurant objects or the hardcoded html elements that were created
 inside of the order.html file.
 
 -How items are added or removed from the "cart":
-    In order to add and remove items, I used a similar method to
-what was suggested for tutorial 2. I made an array that stores
+    In order to add and remove items, I made an array that stores
 all of the meals that the user selected and I updated this array
 everytime the user decided to add or take away a meal in their
 chosen restaurant. Once the array was updated, I would render the
